@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyCookery</title>
+    <meta name="description" content="Лендинг - тестовое задание">
+    <meta name="author" content="Александра Шевченко">
+  </head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="logo">
+        <img class="logo__pic" src="<%=require('./images/logo.svg')%>" alt="Логотип">
+        <div class="logo__text-box">
+          <p class="logo__name">TastyCookery</p>
+          <p class="logo__caption">Cook for real</p>
+        </div>
+      </div>
+      <div class="header__description">
+        <h1 class="header__title">Домашние простые рецепты</h1>
+        <p class="header__subtitle">Собирайте рецепты в recipe box</p>
+        <div class="header__link-box">
+          <a href="#" class="header__link">Присоединиться <br/> к сообществу</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="list">
+        <div class="slider">
+          <div class="slider__container">
+            <div class="slider__wrapper">
+              <div class="slider__items">
+                <div class="slider__item">
+                  <!-- Контент 1 слайда -->
+                  <div class="slider__item-content">
+                    <img src="<%=require('./images/icon1.png')%>"  alt="Иконка" class="slider__pic">
+                    <p class="silder__description">Простые домашние рецепты</p>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <!-- Контент 2 слайда -->
+                  <div class="slider__item-content">
+                    <img src="<%=require('./images/icon2.png')%>"  alt="Иконка" class="slider__pic">
+                    <p class="silder__description">Статьи о готовке</p>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <!-- Контент 3 слайда -->
+                  <div class="slider__item-content slider__item-content_type_width ">
+                    <img src="<%=require('./images/icon3.png')%>"  alt="Иконка" class="slider__pic">
+                    <p class="silder__description">Бесплатная книга рецептов всем подписчикам</p>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <!-- Контент 4 слайда -->
+                  <div class="slider__item-content">
+                    <img src="<%=require('./images/icon4.png')%>"  alt="Иконка" class="slider__pic">
+                    <p class="silder__description">Собирайте рецепты <br/> в recipe box</p>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <!-- Контент 5 слайда -->
+                  <div class="slider__item-content">
+                    <img src="<%=require('./images/icon5.png')%>"  alt="Иконка" class="slider__pic">
+                    <p class="silder__description">Печать рецептов</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ol class="slider__indicators">
+              <li data-slide-to="0"></li>
+              <li data-slide-to="1"></li>
+              <li data-slide-to="2"></li>
+              <li data-slide-to="3"></li>
+              <li data-slide-to="4"></li>
+            </ol>
+          </div>
+
+
+        </div>
+
+      </section>
+
+    </main>
+    <footer></footer>
+  </div>
+</body>
+</html>
+

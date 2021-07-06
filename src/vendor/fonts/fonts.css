@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Circe";
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Circe-Light.woff2") format("woff2"),
+       url("./Circe-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circe";
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Circe-Regular.woff2") format("woff2"),
+       url("./Circe-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circe";
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("./Circe-ExtraBold.woff2") format("woff2"),
+       url("./Circe-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Handbook-Pro";
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./PFHandbookPro-Medium.woff2") format("woff2"),
+       url("./PFHandbookPro-Medium.woff") format("woff");
+}

@@ -1,0 +1,111 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../slider/chief-slider.css);
+
+.header{
+  min-height: 600px;
+  background-color: #ea7f8c;
+  background-image: url('../images/header.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 59px 120px;
+  color: #fff;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo__pic{
+  width: 35px;
+  height: 49px;
+}
+
+.logo__text-box{
+  margin-left: 10px;
+}
+
+.logo__name{
+  font-family: "Handbook-Pro";
+  font-size: 29.3px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+}
+
+.logo__caption{
+  font-family: "Circe";
+  font-size: 11.4px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.33em;
+  color: #d4d4d4;
+  margin: 0;
+}
+
+.header__description{
+  max-width: 540px;
+  margin-top: 78px;
+}
+
+
+.header__title{
+  font-family: "Circe";
+  font-size: 54px;
+  line-height: 1.2;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+.header__subtitle{
+  font-weight: 300;
+  font-size: 24px;
+  margin: 16px 0 0;
+}
+
+.header__link-box{
+  display: flex;
+  position: relative;
+  width: 330px;
+  height: 90px;
+  background-color: #c8ead6;
+  background-image: linear-gradient(63.0deg, #12bc82 -4%, #bfdf2c 104%);
+  border-radius: 10px;
+  margin-top: 36px;
+}
+
+.header__link{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 7% 0;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -27%); */
+}
+
+
+.list{
+  box-sizing: border-box;
+  padding: 60px 90px;
+}

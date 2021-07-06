@@ -1,0 +1,12 @@
+.page {
+  background-color: #fff;
+  font-family: "Circe", "Arial", sans-serif;
+  color: #242424;
+  max-width: 1600px;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto;
+}
