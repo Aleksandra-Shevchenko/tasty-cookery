@@ -10,3 +10,13 @@
   -webkit-font-smoothing: antialiased;
   margin: 0 auto;
 }
+
+.page__title{
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #242424;
+  text-align: center;
+  margin: 0 0 28px 0;
+}

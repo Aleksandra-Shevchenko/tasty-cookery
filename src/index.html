@@ -21,8 +21,8 @@
       <div class="header__description">
         <h1 class="header__title">Домашние простые рецепты</h1>
         <p class="header__subtitle">Собирайте рецепты в recipe box</p>
-        <div class="header__link-box">
-          <a href="#" class="header__link">Присоединиться <br/> к сообществу</a>
+        <div class="page__link-box">
+          <a href="#" class="page__link header__link">Присоединиться <br/> к сообществу</a>
         </div>
       </div>
     </header>
@@ -77,10 +77,88 @@
               <li data-slide-to="4"></li>
             </ol>
           </div>
-
-
         </div>
+      </section>
 
+      <section class="advantages">
+        <h2 class="page__title">Почему круто быть с нами:</h2>
+        <div class="slider slider_type_advant">
+          <div class="slider__container">
+            <div class="slider__wrapper">
+              <div class="slider__items">
+                <div class="slider__item slider__item_type_three">
+                  <!-- Контент 1 слайда -->
+                  <div class="slider__item-content slider__item-content_type_advant">
+                    <img src="<%=require('./images/phone.png')%>"  alt="Рецепты в телефоне" class="slider__pic slider__pic_type_advant">
+                    <p class="silder__description silder__description_type_advant">Получать лучшие рецепты <br/>по разным категориям</p>
+                  </div>
+                </div>
+                <div class="slider__item slider__item_type_three">
+                  <!-- Контент 2 слайда -->
+                  <div class="slider__item-content slider__item-content_type_advant">
+                    <img src="<%=require('./images/plate.png')%>"  alt="Блюдо" class="slider__pic slider__pic_type_advant slider__pic_type_resize">
+                    <p class="silder__description silder__description_type_advant">Готовить без лишних усилий<br/>и делать из каждого дня<br/>не рутинный</p>
+                  </div>
+                </div>
+                <div class="slider__item slider__item_type_three">
+                  <!-- Контент 3 слайда -->
+                  <div class="slider__item-content slider__item-content_type_advant">
+                    <img src="<%=require('./images/child.png')%>"  alt="Ребенок учится готовить" class="slider__pic slider__pic_type_advant">
+                    <p class="silder__description silder__description_type_advant">Довольные<br/> члены семьи</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ol class="slider__indicators">
+              <li data-slide-to="0"></li>
+              <li data-slide-to="1"></li>
+              <li data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscription">
+        <h3 class="subscription__titile">Удобно получать на емейл уникальные проверенные рецепты,<br/> которые дружная команда Tastycookery попробовала сама и рекомендует</h3>
+        <div class="page__link-box subscription__link-box">
+          <a href="#" class="page__link subscription__link"><span class="subscription__link-text">Стать членом семьи Tastycookery</span> бесплатно
+          </a>
+        </div>
+      </section>
+
+      <section class="comments">
+        <h2 class="page__title">Отзывы довольных пользователей</h2>
+        <div class="slider slider_type_comments">
+          <div class="slider__container">
+            <div class="slider__wrapper">
+              <div class="slider__items">
+                <div class="slider__item slider__item_type_three">
+                  <!-- Контент 1 слайда -->
+                  <div class="slider__item-content slider__item-content_type_user">
+                    <p class="slider__comment">После того, как стал участником проекта Tastycookery получает много простых рецептов, о которых раньше не задумывался, стал готовить некоторые, семья рада, стали больше разговаривать во время ужина и хвалить кулинарные таланты Человека1.</p>
+                    <div class="slider__user-box">
+                      <img src="<%=require('./images/daineris.jpg')%>"  alt="Аватар пользователя" class="slider__pic slider__pic_type_user">
+                      <div class="slider__user">
+                        <h4 class="slider__user-name">Дейнерис</h4>
+                        <p class="slider__user-age">56 лет</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+            <ol class="slider__indicators">
+              <li data-slide-to="0"></li>
+              <li data-slide-to="1"></li>
+              <li data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
       </section>
 
     </main>
