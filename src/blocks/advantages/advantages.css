@@ -1,0 +1,18 @@
+
+.advantages{
+  box-sizing: border-box;
+  padding: 0 130px 88px;
+}
+
+@media screen and (max-width: 900px) {
+  .advantages{
+    padding: 0 40px 66px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .advantages{
+    padding: 0 30px 66px;
+  }
+}
+

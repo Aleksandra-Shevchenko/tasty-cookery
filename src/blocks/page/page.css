@@ -3,7 +3,7 @@
   font-family: "Circe", "Arial", sans-serif;
   color: #242424;
   max-width: 1600px;
-  min-width: 320px;
+  min-width: 370px;
   min-height: 100vh;
   box-sizing: border-box;
   -moz-osx-font-smoothing: grayscale;
@@ -20,3 +20,46 @@
   text-align: center;
   margin: 0 0 28px 0;
 }
+
+.page__link-box{
+  display: flex;
+  position: relative;
+  width: 330px;
+  height: 90px;
+  background-color: #c8ead6;
+  background-image: linear-gradient(63.0deg, #12bc82 -4%, #bfdf2c 104%);
+  border-radius: 10px;
+  margin: 0;
+}
+
+.page__link{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 7% 0;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -27%); */
+}
+
+@media screen and (max-width: 900px) {
+  .page__title{
+    font-size: 34px;
+    margin: 0 0 26px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page__title{
+    font-size: 30px;
+  }
+}
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,8 +21,8 @@
       <div class="header__description">
         <h1 class="header__title">Домашние простые рецепты</h1>
         <p class="header__subtitle">Собирайте рецепты в recipe box</p>
-        <div class="page__link-box">
-          <a href="#" class="page__link header__link">Присоединиться <br/> к сообществу</a>
+        <div class="page__link-box header__link-box">
+          <a href="#form" class="page__link header__link">Присоединиться <br/> к сообществу</a>
         </div>
       </div>
     </header>
@@ -36,40 +36,42 @@
                   <!-- Контент 1 слайда -->
                   <div class="slider__item-content">
                     <img src="<%=require('./images/icon1.png')%>"  alt="Иконка" class="slider__pic">
-                    <p class="silder__description">Простые домашние рецепты</p>
+                    <p class="slider__description">Простые домашние рецепты</p>
                   </div>
                 </div>
                 <div class="slider__item">
                   <!-- Контент 2 слайда -->
                   <div class="slider__item-content">
                     <img src="<%=require('./images/icon2.png')%>"  alt="Иконка" class="slider__pic">
-                    <p class="silder__description">Статьи о готовке</p>
+                    <p class="slider__description">Статьи о готовке</p>
                   </div>
                 </div>
                 <div class="slider__item">
                   <!-- Контент 3 слайда -->
                   <div class="slider__item-content slider__item-content_type_width ">
                     <img src="<%=require('./images/icon3.png')%>"  alt="Иконка" class="slider__pic">
-                    <p class="silder__description">Бесплатная книга рецептов всем подписчикам</p>
+                    <p class="slider__description">Бесплатная книга рецептов всем подписчикам</p>
                   </div>
                 </div>
                 <div class="slider__item">
                   <!-- Контент 4 слайда -->
                   <div class="slider__item-content">
                     <img src="<%=require('./images/icon4.png')%>"  alt="Иконка" class="slider__pic">
-                    <p class="silder__description">Собирайте рецепты <br/> в recipe box</p>
+                    <p class="slider__description">Собирайте рецепты <br/> в recipe box</p>
                   </div>
                 </div>
                 <div class="slider__item">
                   <!-- Контент 5 слайда -->
                   <div class="slider__item-content">
                     <img src="<%=require('./images/icon5.png')%>"  alt="Иконка" class="slider__pic">
-                    <p class="silder__description">Печать рецептов</p>
+                    <p class="slider__description">Печать рецептов</p>
                   </div>
                 </div>
               </div>
             </div>
-            <ol class="slider__indicators">
+            <a href="#" class="slider__control" data-slide="prev"></a>
+            <a href="#" class="slider__control" data-slide="next"></a>
+            <ol class="slider__indicators slider__hidden">
               <li data-slide-to="0"></li>
               <li data-slide-to="1"></li>
               <li data-slide-to="2"></li>
@@ -81,7 +83,7 @@
       </section>
 
       <section class="advantages">
-        <h2 class="page__title">Почему круто быть с нами:</h2>
+        <h2 class="page__title">Почему круто быть с&nbsp;нами:</h2>
         <div class="slider slider_type_advant">
           <div class="slider__container">
             <div class="slider__wrapper">
@@ -90,25 +92,27 @@
                   <!-- Контент 1 слайда -->
                   <div class="slider__item-content slider__item-content_type_advant">
                     <img src="<%=require('./images/phone.png')%>"  alt="Рецепты в телефоне" class="slider__pic slider__pic_type_advant">
-                    <p class="silder__description silder__description_type_advant">Получать лучшие рецепты <br/>по разным категориям</p>
+                    <p class="slider__description slider__description_type_advant">Получать лучшие рецепты <br/> по&nbsp;разным категориям</p>
                   </div>
                 </div>
                 <div class="slider__item slider__item_type_three">
                   <!-- Контент 2 слайда -->
                   <div class="slider__item-content slider__item-content_type_advant">
                     <img src="<%=require('./images/plate.png')%>"  alt="Блюдо" class="slider__pic slider__pic_type_advant slider__pic_type_resize">
-                    <p class="silder__description silder__description_type_advant">Готовить без лишних усилий<br/>и делать из каждого дня<br/>не рутинный</p>
+                    <p class="slider__description slider__description_type_advant">Готовить без лишних усилий<br/>и делать из каждого дня<br/>не рутинный</p>
                   </div>
                 </div>
                 <div class="slider__item slider__item_type_three">
                   <!-- Контент 3 слайда -->
                   <div class="slider__item-content slider__item-content_type_advant">
                     <img src="<%=require('./images/child.png')%>"  alt="Ребенок учится готовить" class="slider__pic slider__pic_type_advant">
-                    <p class="silder__description silder__description_type_advant">Довольные<br/> члены семьи</p>
+                    <p class="slider__description slider__description_type_advant">Довольные<br/> члены семьи</p>
                   </div>
                 </div>
               </div>
             </div>
+            <a href="#" class="slider__control" data-slide="prev"></a>
+            <a href="#" class="slider__control" data-slide="next"></a>
             <ol class="slider__indicators">
               <li data-slide-to="0"></li>
               <li data-slide-to="1"></li>
@@ -119,9 +123,9 @@
       </section>
 
       <section class="subscription">
-        <h3 class="subscription__titile">Удобно получать на емейл уникальные проверенные рецепты,<br/> которые дружная команда Tastycookery попробовала сама и рекомендует</h3>
+        <h3 class="subscription__titile">Удобно получать на&nbsp;емейл уникальные проверенные рецепты, которые дружная команда Tastycookery попробовала сама и&nbsp;рекомендует</h3>
         <div class="page__link-box subscription__link-box">
-          <a href="#" class="page__link subscription__link"><span class="subscription__link-text">Стать членом семьи Tastycookery</span> бесплатно
+          <a href="#form" class="page__link subscription__link"><span class="subscription__link-text">Стать членом семьи Tastycookery</span> бесплатно
           </a>
         </div>
       </section>
@@ -131,7 +135,7 @@
         <div class="slider slider_type_comments">
           <div class="slider__container">
             <div class="slider__wrapper">
-              <div class="slider__items">
+              <div class="slider__items slider__items_type_content">
                 <div class="slider__item slider__item_type_three">
                   <!-- Контент 1 слайда -->
                   <div class="slider__item-content slider__item-content_type_user">
@@ -145,13 +149,36 @@
                     </div>
                   </div>
                 </div>
-
-
-
-
-
+                <div class="slider__item slider__item_type_three">
+                  <!-- Контент 2 слайда -->
+                  <div class="slider__item-content slider__item-content_type_user">
+                    <p class="slider__comment">Рад, что благодаря простым рецептам может наслаждаться изысканными блюдами, тратя на приготовление 20 мин в день</p>
+                    <div class="slider__user-box">
+                      <img src="<%=require('./images/taivin.jpg')%>"  alt="Аватар пользователя" class="slider__pic slider__pic_type_user">
+                      <div class="slider__user">
+                        <h4 class="slider__user-name">Тайвин</h4>
+                        <p class="slider__user-age">43 года</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__item slider__item_type_three">
+                  <!-- Контент 3 слайда -->
+                  <div class="slider__item-content slider__item-content_type_user">
+                    <p class="slider__comment">Довольна, что благодаря рецептам с TC может на работу брать полезные обеды,<br/> что полностью отказалась от офисной неполезной еды и за 2 месяца похудела<br/> на 3 кг. И очень рекомендует всем использовать рецепты с сайта</p>
+                    <div class="slider__user-box">
+                      <img src="<%=require('./images/serseya.jpg')%>"  alt="Аватар пользователя" class="slider__pic slider__pic_type_user">
+                      <div class="slider__user">
+                        <h4 class="slider__user-name">Серсея</h4>
+                        <p class="slider__user-age">56 лет</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+            <a href="#" class="slider__control" data-slide="prev"></a>
+            <a href="#" class="slider__control" data-slide="next"></a>
             <ol class="slider__indicators">
               <li data-slide-to="0"></li>
               <li data-slide-to="1"></li>
@@ -160,9 +187,21 @@
           </div>
         </div>
       </section>
-
     </main>
-    <footer></footer>
+
+    <footer class="footer" id='form'>
+      <div class="footer__box">
+        <p class="footer__text">Sign up to receive daily manually selected recipes, delicious weekly articles, 3-piece sets of slow cooker, vegetarian, and lunch ideas, plus Quick&Easy recipes and Nutrition Value flashcards via email.</p>
+        <form class="footer__form">
+          <input id="email" type="email" placeholder="Enter your email" class="footer__input" name="email" minlength="3" maxlength="40" required>
+          <span id="email-error" class="footer__input-error"></span>
+          <button class="footer__btn page__link-box" type="submit">Sign up</button>
+          <p class="footer__caption">By signing up I agree to the terms of the <a  href="#" class="footer__link">Privacy Policy</a></p>
+        </form>
+      </div>
+      <p class="footer__content"> &copy; 2014–2018 TastyCookery.com</p>
+
+    </footer>
   </div>
 </body>
 </html>

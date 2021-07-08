@@ -1,0 +1,78 @@
+
+.subscription{
+  min-height: 300px;
+  box-sizing: border-box;
+  background-image: url('../../images/subscription.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 57px 0 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription__titile{
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 0 39px;
+  max-width: 847px;
+  text-align: center;
+}
+
+.subscription__link-box{
+  width: 400px;
+}
+
+.subscription__link{
+  font-size: 22px;
+  line-height: 26px;
+  padding: 5% 0;
+}
+
+
+.subscription__link-text{
+  font-weight: 400;
+  text-transform: none;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .subscription{
+    padding: 57px 40px 51px;
+  }
+
+  .subscription__titile{
+    font-size: 24px;
+    line-height: 28px;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subscription{
+    padding: 57px 20px 51px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .subscription__titile{
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .subscription__link-text{
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .subscription__link-box{
+    max-width: 340px;
+  }
+}
+
+
+

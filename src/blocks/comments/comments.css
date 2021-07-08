@@ -1,0 +1,24 @@
+.comments{
+  padding: 50px 11% 61px;
+  /* padding: 50px 25px 61px; */
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 900px) {
+  .comments{
+    padding: 50px 40px 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments{
+    padding: 46px 20px 90px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .comments{
+    padding: 46px 10px 90px;
+  }
+}

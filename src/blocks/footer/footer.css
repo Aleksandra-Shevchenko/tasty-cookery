@@ -1,0 +1,155 @@
+.footer{
+  background-image: url('../../images/footer.jpg');
+  background-color: #ea7f8c;
+  background-position: center;
+  background-size: cover;
+  height: 579px;
+  box-sizing: border-box;
+  padding: 147px 0 0;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__box{
+  display: flex;
+  justify-content: space-between;
+  max-width: 957px;
+  margin-left: 187px;
+}
+
+.footer__text{
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 435px;
+  margin: 0 20px 0 0;
+}
+
+.footer__form{
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  position: relative;
+
+}
+
+.footer__input{
+  height: 60px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding: 0 28px;
+  margin: 0 0 29px 0;
+}
+
+.footer__btn{
+  border: none;
+  outline: none;
+  height: 80px;
+  width: 100%;
+  font-family: "Circe";
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer__btn_inactive{
+  opacity: .7;
+}
+
+.footer__input-error_active{
+  color: red;
+  position: absolute;
+  top: 62px;
+  left: 10px;
+  font-size: 12px;
+}
+
+.footer__caption{
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 20px 0 0;
+}
+
+.footer__link{
+  color: #fff;
+}
+
+.footer__content{
+  text-align: center;
+  margin: 0 0 17px;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer__box{
+    margin: 0 auto;
+  }
+  .footer{
+    padding: 147px 40px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer{
+    padding: 90px 40px 0;
+  }
+
+  .footer__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__text{
+    font-size: 20px;
+    max-width: 370px;
+    margin: 0 0 40px;
+  }
+
+  .footer__caption{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer{
+    padding: 70px 20px 0;
+    height: 500px;
+  }
+  .footer__text{
+    margin: 0 0 26px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer{
+    padding: 40px 20px 0;
+    height: 500px;
+  }
+  .footer__box{
+    width: 330px;
+  }
+  .footer__form{
+    width: 330px;
+  }
+}
+
