@@ -33,4 +33,4 @@
 
 -----------
 
-* [Ссылка на макет](https://drive.google.com/drive/folders/1_oDUVrS7-2QN7JhPYp73ZBtpo001pXsn),
+[Ссылка на макет](https://drive.google.com/drive/folders/1_oDUVrS7-2QN7JhPYp73ZBtpo001pXsn)
