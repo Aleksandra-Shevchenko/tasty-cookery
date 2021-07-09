@@ -14,7 +14,6 @@ export default class FormValidator {
   //метод появления сообщения об ошибке
   _showInputError(inputElement, errorMessage) {
     const errorElement = this._formElement.querySelector(`#${inputElement.id}-error`);
-
     inputElement.classList.add(this._inputErrorClass);
     errorElement.textContent = errorMessage;
     errorElement.classList.add(this._errorClass);
@@ -28,7 +27,6 @@ export default class FormValidator {
     errorElement.classList.remove(this._errorClass);
     errorElement.textContent = '';
   }
-
 
   //метод управления сообщениями об ошибках
   _checkInputValidity(inputElement) {
@@ -45,7 +43,6 @@ export default class FormValidator {
       return !inputElement.validity.valid;
     });
   }
-
 
   //метод включения/выключения кнопки submit в форме
   _toggleButtonState(inputList, buttonElement) {
@@ -67,7 +64,6 @@ export default class FormValidator {
     inputList.forEach((inputElement) => {
       inputElement.addEventListener('input', () => {
         this._checkInputValidity(inputElement);
-
         this._toggleButtonState(inputList, buttonElement);
       });
     });

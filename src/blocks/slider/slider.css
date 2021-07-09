@@ -15,9 +15,8 @@
   margin-top: 0;
 }
 
-
 .slider__container {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .slider__wrapper {
@@ -32,8 +31,6 @@
 
 .slider__items_type_content{
   align-items: flex-end;
-  /* max-width: 1092px;
-  margin: 0 auto; */
 }
 
 .slider_disable-transition {
@@ -56,37 +53,11 @@
 
 
 /* кнопки влево и вправо */
-
 .slider__control {
-  position: absolute;
-  top: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  color: #fff;
-  text-align: center;
-  height: 50px;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.2);
   visibility: hidden;
 }
 
-.slider__control_hide {
-  display: none;
-}
-
-.slider__control[data-slide='prev'] {
-  left: 0;
-}
-
-.slider__control[data-slide='next'] {
-  right: 0;
-}
-
-
 /* индикаторы */
-
 .slider__indicators {
   position: absolute;
   right: 0;
@@ -127,7 +98,6 @@
 
 
 /* контент */
-
 .slider__item-content{
   max-width: 252px;
   display: flex;
@@ -235,7 +205,7 @@
 .slider__pic_type_user{
   width: 81px;
   height: 81px;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   object-fit: contain;
   object-position: center;
   font-size: 0;
@@ -251,7 +221,6 @@
   margin: 0;
 }
 
-
 .slider__user-age{
   font-size: 12px;
   line-height: 1.2;
@@ -263,7 +232,6 @@
 .slider__hidden{
   visibility: hidden;
 }
-
 
 
 @media screen and (max-width: 1300px) {

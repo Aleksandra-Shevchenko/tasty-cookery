@@ -1,0 +1,8 @@
+@keyframes shine {
+  from {
+    transform: translateX(-150%) skewX(-45deg);
+  }
+  to {
+    transform: translateX(400%) skewX(-45deg);
+  }
+}

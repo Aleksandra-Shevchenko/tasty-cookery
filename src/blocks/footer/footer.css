@@ -34,7 +34,6 @@
   flex-direction: column;
   width: 370px;
   position: relative;
-
 }
 
 .footer__input{
@@ -66,6 +65,15 @@
   box-sizing: border-box;
 }
 
+.footer__btn:hover{
+  cursor: pointer;
+}
+
+.footer__btn:disabled{
+  cursor: default;
+  animation: none;
+}
+
 .footer__btn_inactive{
   opacity: .7;
 }
@@ -88,6 +96,11 @@
 
 .footer__link{
   color: #fff;
+}
+
+.footer__link:hover{
+  color: #12bc82;
+  cursor: pointer;
 }
 
 .footer__content{

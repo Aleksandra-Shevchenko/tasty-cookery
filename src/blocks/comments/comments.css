@@ -1,9 +1,7 @@
 .comments{
   padding: 50px 11% 61px;
-  /* padding: 50px 25px 61px; */
   box-sizing: border-box;
 }
-
 
 @media screen and (max-width: 900px) {
   .comments{

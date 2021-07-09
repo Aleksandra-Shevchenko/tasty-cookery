@@ -54,7 +54,6 @@
   .header__description{
     max-width: 440px;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -92,7 +91,6 @@
     max-width: 360px;
   }
 }
-
 
 @media screen and (max-width: 550px) {
   .header{

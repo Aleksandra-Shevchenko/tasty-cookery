@@ -10,6 +10,7 @@
 
 <body>
   <div class="page">
+
     <header class="header">
       <div class="logo">
         <img class="logo__pic" src="<%=require('./images/logo.svg')%>" alt="Логотип">
@@ -26,7 +27,9 @@
         </div>
       </div>
     </header>
+
     <main>
+
       <section class="list">
         <div class="slider">
           <div class="slider__container">
@@ -125,7 +128,9 @@
       <section class="subscription">
         <h3 class="subscription__titile">Удобно получать на&nbsp;емейл уникальные проверенные рецепты, которые дружная команда Tastycookery попробовала сама и&nbsp;рекомендует</h3>
         <div class="page__link-box subscription__link-box">
-          <a href="#form" class="page__link subscription__link"><span class="subscription__link-text">Стать членом семьи Tastycookery</span> бесплатно
+          <a href="#form" class="page__link subscription__link">
+            <span class="subscription__link-text">Стать членом семьи Tastycookery</span>
+            бесплатно
           </a>
         </div>
       </section>
@@ -187,21 +192,22 @@
           </div>
         </div>
       </section>
+
     </main>
 
     <footer class="footer" id='form'>
       <div class="footer__box">
         <p class="footer__text">Sign up to receive daily manually selected recipes, delicious weekly articles, 3-piece sets of slow cooker, vegetarian, and lunch ideas, plus Quick&Easy recipes and Nutrition Value flashcards via email.</p>
         <form class="footer__form">
-          <input id="email" type="email" placeholder="Enter your email" class="footer__input" name="email" minlength="3" maxlength="40" required>
+          <input id="email" type="email" placeholder="Enter your email" class="footer__input" name="email" minlength="3" maxlength="50" required>
           <span id="email-error" class="footer__input-error"></span>
-          <button class="footer__btn page__link-box" type="submit">Sign up</button>
+          <button class="footer__btn page__link-box page__link" type="submit">Sign up</button>
           <p class="footer__caption">By signing up I agree to the terms of the <a  href="#" class="footer__link">Privacy Policy</a></p>
         </form>
       </div>
       <p class="footer__content"> &copy; 2014–2018 TastyCookery.com</p>
-
     </footer>
+
   </div>
 </body>
 </html>
